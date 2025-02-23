@@ -1,4 +1,4 @@
-package satriiadaffa.crm.api.Services;
+package satriiadaffa.crm.api.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
