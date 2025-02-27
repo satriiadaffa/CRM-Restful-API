@@ -12,6 +12,7 @@ import satriiadaffa.crm.api.models.CustomerModel;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/customers")
 @PreAuthorize("hasAuthority('USER','ADMIN')")
